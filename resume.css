@@ -1,0 +1,181 @@
+body {
+  background-color: lavender;
+  margin: auto;
+  padding-bottom: 40px;
+  max-width: 700px;
+}
+
+nav {
+  position: static;
+  font-family: "Chronicle";
+  padding: 20px;
+  font-size: 20px;
+}
+
+a {
+  color: slateblue;
+}
+
+a:hover {
+  color: indigo;
+}
+
+a:visited {
+  color: midnightblue;
+}
+
+header {
+  position: relative;
+  height: 150px;
+  border: 10px double darkslateblue;
+  background-color: rgba(100, 149, 237, 0.15);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Gill Sans";
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 45px;
+}
+
+address {
+  text-align: center;
+  font-family: "Gill Sans";
+  font-size: 30px;
+}
+
+img.phone {
+  margin-right: -5px;
+}
+
+img.email {
+  margin-left: 15px;
+}
+
+h2 {
+  font-family: "Gill Sans";
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: "Lucida Grande";
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Chronicle";
+  margin-left: 20px;
+  font-size: 15px;
+  max-width: 500px;
+}
+
+.contact {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.experience {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid darkslateblue;
+  border-width: auto;
+}
+
+.job {
+  margin-top: 15px;
+  margin-bottom: .4px;
+}
+
+.employer {
+  margin-top: .4px;
+  margin-bottom: .4px;
+}
+
+.description {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.education, .skills {
+  position: relative;
+  padding-top: 20px;
+  border-bottom: 1px solid darkslateblue;
+  border-width: auto;
+  padding-bottom: 20px;
+}
+
+.studies {
+  border-radius: 25px;
+  border: 1.5px solid darkslateblue;
+  background: rgba(100, 149, 237, 0.15);
+  height: 45px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 230px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.involvement {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.references {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+  border: 5px solid darkslateblue;
+  background: rgba(100, 149, 237, 0.15);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download {
+  position: relative;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+span.years {
+  font-style: italic;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+.skills > ul {
+  list-style-type: circle;
+}
+
+.grants {
+  margin-top: 15px;
+}
+
+.awards {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.involvement > p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.involvement > p:nth-child(3) {
+  margin-bottom: 15px;
+}
+
+.involvement > h2 {
+  margin-bottom: 15px;
+}
